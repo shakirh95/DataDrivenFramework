@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-11T12:59:51 IST" name="Suite" finished-at="2024-05-11T13:00:06 IST" duration-ms="15243">
+    <groups>
+    </groups>
+    <test started-at="2024-05-11T12:59:51 IST" name="Test" finished-at="2024-05-11T13:00:06 IST" duration-ms="15243">
+      <class name="TestCaseFile.TestCase">
+        <test-method is-config="true" signature="browserLunch()[pri:0, instance:TestCaseFile.TestCase@73a1e9a9]" started-at="2024-05-11T12:59:51 IST" name="browserLunch" finished-at="2024-05-11T13:00:00 IST" duration-ms="8437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLunch -->
+        <test-method signature="OpenUrl(java.lang.String,java.lang.String)[pri:0, instance:TestCaseFile.TestCase@73a1e9a9]" started-at="2024-05-11T13:00:01 IST" name="OpenUrl" data-provider="DataProvider" finished-at="2024-05-11T13:00:06 IST" duration-ms="5094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenUrl -->
+      </class> <!-- TestCaseFile.TestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
